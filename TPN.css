@@ -8,10 +8,9 @@ body {
     grid-template-areas: "nav "
                          "section ";
     grid-template-columns: 100%;
-    grid-template-rows:  10% 150% ;
+    grid-template-rows:  10% 220% ;
     background-color: rgb(255, 255, 255);
     height: 100vh;
-    background-image: url('/images/background.png');
 }
 
 nav {
@@ -45,6 +44,7 @@ section {
 }
 
 .container {
+    display: flex;
     background-color: rgb(228, 234, 240);
     border-radius: 1rem;
 }
@@ -53,4 +53,17 @@ section {
     margin-top: 5%;
     width: 70vw;
     height: 60vh;
+    margin-bottom: 20%;
+}
+
+
+#detail {
+    width: 70vw;
+    height: 60vh;
+    margin-bottom: 20%;
+}
+
+#schoolweb {
+    width: 70vw;
+    height: 10vh;
 }
