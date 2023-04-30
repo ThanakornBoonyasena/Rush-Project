@@ -12,19 +12,20 @@ body {
     grid-template-areas: "nav "
                          "section ";
     grid-template-columns: 100%;
-    grid-template-rows:  10% 220% ;
+    grid-template-rows:  10% 250% ;
     background-color: rgb(255, 255, 255);
     height: 100vh;
 }
 
 nav {
-    position: sticky;
-    top: 0;
-    grid-area: nav;
     background-color: rgb(0, 68, 255);
+    position: fixed;
+    top: 0;
+    width: 100%;
     display: flex;
     justify-content: center;
 }   
+
 
 section {
     grid-area: section;
@@ -35,8 +36,9 @@ section {
 
 
 .navigate {
-    position: inherit;
     display: flex;
+    text-decoration: none;
+    height: 10vh;
     align-items: center;
 }
 
@@ -44,7 +46,9 @@ section {
     color: #ffff;
     margin: 0 5rem 0 5rem;
     text-decoration: none;
-    font-size: 1.5rem;  
+    font-size: 1.5rem;
+    transition: transform 0.5s ease;
+    transform: scale(1);
 }
 
 .container {
@@ -58,9 +62,33 @@ section {
     width: 70vw;
     height: 60vh;
     margin-bottom: 20%;
+    display: flex;
+    overflow: hidden;
 }
 
+#img {
+    width: 30%;
+    height: 100%;
+    background-color: antiquewhite;
 
+}
+
+#my-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+#article {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    flex-direction: column;
+}
+  
+  
 #detail {
     width: 70vw;
     height: 60vh;
@@ -71,3 +99,17 @@ section {
     width: 70vw;
     height: 10vh;
 }
+
+.navbtn:hover {
+    transition: transform 0.5s ease;
+    transform:scale(1.25);
+}
+
+#detail-header, #schoolweb-header {
+    margin-bottom: 5rem;
+}
+
+#about-header {
+    margin-top: 5rem;
+}
+
