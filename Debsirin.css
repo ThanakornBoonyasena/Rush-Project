@@ -6,13 +6,15 @@
 html {
     scroll-behavior: smooth;
 }
-
+.bcolor{
+    background-color: #f0ec23;
+}
 nav {
-    background-color: #d9ff00;
+    background-color: #3cff00;
     position: fixed;
     top: 0;
     width: 100%;
-    justify-content: center;
+    
 }   
 .navbar a {
     float: left;
@@ -49,7 +51,7 @@ section {
 
 .container {
     display: flex;
-    background-color: rgb(228, 234, 240);
+    background-color: rgb(255, 255, 255);
     border-radius: 1rem;
 }
 
@@ -84,12 +86,12 @@ section {
 .center {
     margin: auto;
     width: 50%;
-    border: 3px solid green;
+    border: 3px solid rgb(30, 255, 0);
     padding: 10px;
     font-size: 40px;
   }
   .navbar a:hover {
-    background: #31b10b;
+    background: #c6ffb4;
     color: black;
     transform:scale(1.2);
   }
@@ -120,6 +122,10 @@ section {
 #img {
     width: 30%;
     height: 100%;
-    background-color: antiquewhite;
+    background-color:  rgb(255, 255, 255);
 
+}
+
+.imgunborder{
+    border-radius: 30px;
 }
