@@ -86,6 +86,7 @@ section {
     align-items: center;
     font-size: 3rem;
     flex-direction: column;
+    color: black;
 }
   
   
@@ -113,3 +114,17 @@ section {
     margin-top: 5rem;
 }
 
+.txt{
+    font-size: 1.5rem;
+    color: black;
+}
+
+#location {
+    text-decoration: none;
+}
+
+#my-logo {
+    margin-top: 2rem;
+    width: 20%;
+    height: 40%;
+}
