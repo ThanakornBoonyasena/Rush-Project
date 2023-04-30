@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: #d9ff00;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}   
+.navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.navigate {
+    position: inherit;
+    display: flex;
+    align-items: center;
+    
+}
+
+.navbtn {
+    color: #f0ec23;
+    margin: 0 5rem 0 5rem;
+    text-decoration: none;
+    font-size: 1.5rem;  
+    
+    
+}
+
+.container {
+    display: flex;
+    background-color: rgb(228, 234, 240);
+    border-radius: 1rem;
+}
+
+#about {
+    margin-top: 5%;
+    width: 70vw;
+    height: 74vh;
+    margin-bottom: 20%;
+}
+
+
+#detail {
+    width: 70vw;
+    height: 60vh;
+    margin-bottom: 20%;
+}
+
+#schoolweb {
+    width: 70vw;
+    height: 10vh;
+}
+
+.con-text
+{
+    font-size: 25px;
+    position: static;
+}
+
+
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    font-size: 40px;
+  }
+  .navbar a:hover {
+    background: #31b10b;
+    color: black;
+    transform:scale(1.2);
+  }
+  .main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; 
+  }
+
+#b1
+{
+    font-size: 10;
+}
+#b2
+{
+    font-size: 10;
+}
+#b3{
+    font-size: 10;
+}
+
